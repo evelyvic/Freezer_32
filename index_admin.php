@@ -35,6 +35,13 @@ and open the template in the editor.
     <body>
         <!-- CABEÇALHO -->
             <?php include 'header_admin.php' ?>
+
+            <?php 
+
+            session_start();
+             echo "<h1> Bem vindo, " . $_SESSION["login"];
+            
+            ?>
         
         <!-- RODAPÉ -->
        <?php include  'footer_admin.php' ?>

@@ -17,23 +17,13 @@ and open the template in the editor.
 
         <?php include 'header_admin.php' ?>
 
-        <div id="body" class="contact">
-            <div class="footer">
-                <div class="contact">
-                         <h1>CADASTRAR USUÁRIOS</h1>
-               
-    </body>
-</html>
-
-
-        <!-- CABEÇALHO -->
-        <?php include 'header_admin.php' ?>
+       
 
         <div id="body" class="contact">
             <div class="footer">
                 <div class="contact">
                          <h1>CADASTRAR USUÁRIOS</h1>
-                         
+
             <form action="usuario_cadastro_salvar.php" method="post">
                 <ol>
                     <li>
@@ -43,7 +33,7 @@ and open the template in the editor.
                         <input name="txtSenhaUsuario" type="password" class="textbox" placeholder="Senha do usuário"/></li>
                 
                     <li>
-                        <input type="submit" formaction= "" name="btSalvar"  value="Enviar" class="botao" />
+                        <input type="submit" name="btSalvar"  value="Enviar" class="botao" />
                     </li>
 
                   
@@ -54,3 +44,7 @@ and open the template in the editor.
         </div>
         <!-- RODAPÉ -->
         <?php include 'footer_admin.php' ?>
+
+                      
+    </body>
+</html>
